@@ -6,6 +6,10 @@
 [Bb]uilds/
 Assets/AssetStoreTools*
 
+*.meta
+*.lock
+*/EditorInstance.json
+
 # Visual Studio 2015 cache directory
 /.vs/
 .vscode
