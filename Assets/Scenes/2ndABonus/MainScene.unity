@@ -423,18 +423,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 317291023}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1241777061}
-        m_MethodName: ChangeScene
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 3
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &317291023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -724,9 +713,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1241777059}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab1e83287af8235448e0215fd2d9c060, type: 3}
+  m_Script: {fileID: 11500000, guid: c2e617409b5485e4184e2a5675d7fa70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  toScene1: {fileID: 8988047253505221257}
+  toScene2: {fileID: 2144144716}
+  toScene3: {fileID: 317291022}
 --- !u!1 &1531139009
 GameObject:
   m_ObjectHideFlags: 0
@@ -1058,18 +1050,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2144144717}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1241777061}
-        m_MethodName: ChangeScene
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &2144144717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1171,18 +1152,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8988047253505221256}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1241777061}
-        m_MethodName: ChangeScene
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!222 &8988047253505221259
 CanvasRenderer:
   m_ObjectHideFlags: 0
